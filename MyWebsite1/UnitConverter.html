@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Unit Converter</h2>
+
+  <label for="temperature">Enter temperature:</label>
+  <input type="text" id="temperature" placeholder="Enter temperature">
+
+  <button onclick="convertTemperature()">Convert F to C</button>
+  <button onclick="convertToFahrenheit()">Convert C to F</button>
+
+  <br><br>
+
+  <label for="length">Enter length:</label>
+  <input type="text" id="length" placeholder="Enter length">
+
+  <button onclick="convertLength()">Convert M to Ft</button>
+  <button onclick="convertToMeters()">Convert Ft to M</button>
+
+  <div id="result"></div>
+
+  <script src="UnitConverter.js"></script>
+
+</body>
+</html>
